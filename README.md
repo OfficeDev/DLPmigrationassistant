@@ -1,14 +1,59 @@
-# Project
+# M365 DLP Migration Assitant
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
 
-As the maintainer of this project, please make a few updates:
+## What is M365 DLP Migration Assistant?
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+The MDMA tool is a Windows based desktop application that will migrate your DLP policies from other DLP platforms to our Unified DLP platform. 
+
+Our tool takes you through a simple five-step migration process. It accepts Symantec DLP policy XML exports, performs mapping, and creates equivalent Unified DLP policies through PowerShell scripts.
+
+You can safely use the MDMA tool to create DLP policies in test mode, which does not affect your live data or interact with current environment. 
+
+
+
+## Migration tasks that M365 DMA performs
+
+MDMA takes over many of the difficult or tedious tasks involved in a DLP migration project:
+
+-	In traditional migration scenario, you need to perform feasibility analysis between source & target DLP platforms, map features, migrate policies manually, and test and tweak DLP policies. Your migrated DLP policies can be up and running within minutes of starting the M365 DMA process.
+- With M365 DMA, you can scale up your migration project quickly from moving a single policy manually to multiple policies at the same time.
+- M365 DMA automatically identifies Sensitive Information Types (SITs) or Data Identifiers in source policies and creates Custom SITs in your Microsoft tenant moving over all your custom regular expressions and keywords in a few clicks.
+- M365 DMA detects which conditions, exclusions & actions are currently being used in source policies and automatically creates new rules with the same conditions, exclusions & actions.
+- M365 DMA provides you with a detailed migration report with policy wise migration status and recommendations.
+- M365 DMA ensures that your DLP policy migration project is completely private and takes place within the boundaries of your organization.
+- M365 DMA supports policy migration from Symantec Data Loss Prevention 15.7 or earlier.
+
+
+
+## How does MDMA work?
+
+![image](https://user-images.githubusercontent.com/67892508/136505871-df1f3eba-19c3-47d1-a51b-d2b3fed93adb.png)
+
+During a given instance of migration, the M365 DLP Migration Assistant works in five phases:
+
+1.  **Input:** MDMA ingests one or more Symantec DLP policy XML files.
+
+2.	**Analyze:** MDMA interprets the files & identifies Symantec DLP policy constructs.
+
+3.	**Rationalize:** MDMA maps the identified Symantec DLP policy constructs to Unified DLP capabilities. It performs validations for Unified DLP platform limitations.
+
+4.	**Migrate:** MDMA executes PowerShell scripts for the DLP scenarios identified & supported by the UDLP platform. 
+
+5.	**Reporting:** MDMA provides the user with a detailed migration report about which policies were migrated successfully, partially and/or not migrated. It also provides recommendations to improve the migration fidelity further.
+
+
+## Provide Feedback & Report Bugs
+
+Please report errors, share feedback & any feature requests with us by opening a new issue in this Github repository. Alternatively, you can reach out to us at cxe-help@microsoft.com or via your CXE / Fasttrack / Microsoft partner to share your feedback and suggestions.
+
+
+
+## Telemetry Notice
+
+### Data Collection
+This software may collect information about you and your use of the software and send it to Microsoft. Microsoft may use this information to provide services and improve our products and services. If you wish to turn off telemetry, please reach out to us and we will provide you with a separate version of tool with telemetry turned off. There are also some features in the software that may enable you and Microsoft to collect data from users of your applications. If you use these features, you must comply with applicable law, including providing appropriate notices to users of your applications together with a copy of Microsoft's privacy statement. Our privacy statement is located at https://go.microsoft.com/fwlink/?LinkID=824704. You can learn more about data collection and use in the help documentation and our privacy statement. Your use of the software operates as your consent to these practices.
+
+
 
 ## Contributing
 
