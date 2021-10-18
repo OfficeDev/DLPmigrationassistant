@@ -1,4 +1,4 @@
-# M365 DLP Migration Assitant
+# M365 DLP Migration Assistant
 
 
 ## What is M365 DLP Migration Assistant?
