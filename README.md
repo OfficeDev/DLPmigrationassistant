@@ -9,7 +9,7 @@ Our tool takes you through a simple five-step migration process. It accepts Syma
 
 You can safely use the MDMA tool to create DLP policies in test mode, which does not affect your live data or interact with current environment. 
 
-[**Download the M365 DLP Migration Assistant**](https:aka.ms/DownloadMDMA)
+[**Download the M365 DLP Migration Assistant**](https://aka.ms/DownloadMDMA)
 
 ## Migration tasks that M365 DMA performs
 
