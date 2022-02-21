@@ -1,45 +1,45 @@
-# M365 DLP Migration Assistant
+# Migration Assistant for Microsoft DLP 
 
 
-## What is M365 DLP Migration Assistant?
+## What is Migration Assistant for Microsoft DLP?
 
-The MDMA tool is a Windows based desktop application that will migrate your DLP policies from other DLP platforms to our Unified DLP platform. 
+The MAMD tool is a Windows based desktop application that will migrate your DLP policies from other DLP platforms to our Unified DLP platform. 
 
 Our tool takes you through a simple five-step migration process. It accepts Symantec DLP policy XML exports, performs mapping, and creates equivalent Unified DLP policies through PowerShell scripts.
 
-You can safely use the MDMA tool to create DLP policies in test mode, which does not affect your live data or interact with current environment. 
+You can safely use the MAMD tool to create DLP policies in test mode, which does not affect your live data or interact with current environment. 
 
-[**Download the M365 DLP Migration Assistant**](https://aka.ms/DownloadMDMA)
+[**Download the Migration Assistant for Microsoft DLP**](https://aka.ms/DownloadMDMA)
 
-## Migration tasks that M365 DMA performs
+## Migration tasks that MAMD performs
 
-MDMA takes over many of the difficult or tedious tasks involved in a DLP migration project:
+MAMD takes over many of the difficult or tedious tasks involved in a DLP migration project:
 
--	In traditional migration scenario, you need to perform feasibility analysis between source & target DLP platforms, map features, migrate policies manually, and test and tweak DLP policies. Your migrated DLP policies can be up and running within minutes of starting the M365 DMA process.
-- With M365 DMA, you can scale up your migration project quickly from moving a single policy manually to multiple policies at the same time.
-- M365 DMA automatically identifies Sensitive Information Types (SITs) or Data Identifiers in source policies and creates Custom SITs in your Microsoft tenant moving over all your custom regular expressions and keywords in a few clicks.
-- M365 DMA detects which conditions, exclusions & actions are currently being used in source policies and automatically creates new rules with the same conditions, exclusions & actions.
-- M365 DMA provides you with a detailed migration report with policy wise migration status and recommendations.
-- M365 DMA ensures that your DLP policy migration project is completely private and takes place within the boundaries of your organization.
-- M365 DMA supports policy migration from Symantec Data Loss Prevention 15.7 or earlier.
+-	In traditional migration scenario, you need to perform feasibility analysis between source & target DLP platforms, map features, migrate policies manually, and test and tweak DLP policies. Your migrated DLP policies can be up and running within minutes of starting the MAMD process.
+- With MAMD, you can scale up your migration project quickly from moving a single policy manually to multiple policies at the same time.
+- MAMD automatically identifies Sensitive Information Types (SITs) or Data Identifiers in source policies and creates Custom SITs in your Microsoft tenant moving over all your custom regular expressions and keywords in a few clicks.
+- MAMD detects which conditions, exclusions & actions are currently being used in source policies and automatically creates new rules with the same conditions, exclusions & actions.
+- MAMD provides you with a detailed migration report with policy wise migration status and recommendations.
+- MAMD ensures that your DLP policy migration project is completely private and takes place within the boundaries of your organization.
+- MAMD supports policy migration from Symantec Data Loss Prevention 15.7 or earlier.
 
 
 
-## How does MDMA work?
+## How does MAMD work?
 
-![image](https://user-images.githubusercontent.com/67892508/136505871-df1f3eba-19c3-47d1-a51b-d2b3fed93adb.png)
+![Picture1](https://user-images.githubusercontent.com/69503744/154880938-405ee271-482b-4dca-8f41-30017d64758c.png)
 
-During a given instance of migration, the M365 DLP Migration Assistant works in five phases:
+During a given instance of migration, the Migration Assistant for Microsoft DLP works in five phases:
 
-1.  **Input:** MDMA ingests one or more Symantec DLP policy XML files.
+1.  **Input:** MAMD ingests one or more Symantec DLP policy XML files.
 
-2.	**Analyze:** MDMA interprets the files & identifies Symantec DLP policy constructs.
+2.	**Analyze:** MAMD interprets the files & identifies Symantec DLP policy constructs.
 
-3.	**Rationalize:** MDMA maps the identified Symantec DLP policy constructs to Unified DLP capabilities. It performs validations for Unified DLP platform limitations.
+3.	**Rationalize:** MAMD maps the identified Symantec DLP policy constructs to Unified DLP capabilities. It performs validations for Unified DLP platform limitations.
 
-4.	**Migrate:** MDMA executes PowerShell scripts for the DLP scenarios identified & supported by the UDLP platform. 
+4.	**Migrate:** MAMD executes PowerShell scripts for the DLP scenarios identified & supported by the UDLP platform. 
 
-5.	**Reporting:** MDMA provides the user with a detailed migration report about which policies were migrated successfully, partially and/or not migrated. It also provides recommendations to improve the migration fidelity further.
+5.	**Reporting:** MAMD provides the user with a detailed migration report about which policies were migrated successfully, partially and/or not migrated. It also provides recommendations to improve the migration fidelity further.
 
 
 ## Provide Feedback & Report Bugs
