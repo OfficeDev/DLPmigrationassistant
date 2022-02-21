@@ -44,8 +44,6 @@ During a given instance of migration, the Migration Assistant for Microsoft DLP 
 
 ## Provide Feedback & Report Bugs
 
-Please share feedback with us using this [feedback form](https://aka.ms/MDMAFeedback).
-
 To report errors & any feature requests with us by opening a new issue in this Github repository. Alternatively, you can reach out to us at cxe-help@microsoft.com or via your CXE / Fasttrack / Microsoft partner to share your feedback and suggestions.
 
 
