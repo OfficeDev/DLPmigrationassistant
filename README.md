@@ -11,6 +11,8 @@ You can safely use the MAMD tool to create DLP policies in test mode, which does
 
 [**Download the Migration Assistant for Microsoft DLP**](https://aka.ms/DownloadMDMA)
 
+For issues regarding migration of AND/OR condition groups or any additional support with your migration, reach out to us at dlpmigrations@microsoft.com.
+
 ## Migration tasks that MAMD performs
 
 MAMD takes over many of the difficult or tedious tasks involved in a DLP migration project:
@@ -44,7 +46,7 @@ During a given instance of migration, the Migration Assistant for Microsoft DLP 
 
 ## Provide Feedback & Report Bugs
 
-To report errors & any feature requests with us by opening a new issue in this Github repository. Alternatively, you can reach out to us at cxe-help@microsoft.com or via your CXE / Fasttrack / Microsoft partner to share your feedback and suggestions.
+To report errors & any feature requests with us by opening a new issue in this Github repository. Alternatively, you can reach out to us at dlpmigrations@microsoft.com or via your CXE / Fasttrack / Microsoft partner to share your feedback and suggestions.
 
 
 
