@@ -1,52 +1,33 @@
-# Migration Assistant for Microsoft Purview DLP 
+# Microsoft Purview Data Loss Prevention migration assistant (preview) 
 
 
-## What is Migration Assistant for Microsoft Purview DLP? 
+## What is Microsoft Purview Data Loss Prevention migration assistant (preview)? 
 
-The MAMPD tool is a Windows based desktop application that will migrate your DLP policies from other DLP platforms to our Microsoft Purview DLP platform. 
+The Migration assistant tool is a Windows based desktop application that will migrate your DLP policies from other DLP platforms to Microsoft's Unified DLP platform. 
 
-Our tool takes you through a simple five-step migration process. It accepts Symantec DLP policy XML exports, performs mapping, and creates equivalent Unified DLP policies through PowerShell scripts. 
+The Migration assistant tool takes you through a simple five-step migration process. It accepts Symantec DLP policy XML exports, performs mapping, and creates equivalent Unified DLP policies through PowerShell scripts. 
 
-You can safely use the MAMPD tool to create DLP policies in test mode, which does not affect your live data or interact with current environment. 
+You can safely use the Microsoft Purview Data Loss Prevention migration assistant (preview) tool to create DLP policies in test mode, which does not affect your live data or interact with your production environment. 
 
-[**Download the Migration Assistant for Microsoft Purview DLP**](https://aka.ms/DownloadMAMD)
+## Resources
 
- _**The MAMPD tool is subject to an End User License Agreement, which must be accepted before installation and use.**_
+The migration assistant is in preview ([blog](https://learn.microsoft.com/en-us/microsoft-365/compliance/dlp-learn-about-dlp?view=o365-worldwide)). You can learn more about the migration assistant using the following resources:
+
+o [Learn more about the migration assistant](https://go.microsoft.com/fwlink/?linkid=2221301)
+o	[Get started with migrating DLP policies](https://go.microsoft.com/fwlink/?linkid=2220871)
+o	[Use the migration assistant to migrate policies from Symantec](https://go.microsoft.com/fwlink/?linkid=2221302)
+
+## Download Microsoft Purview Data Loss Prevention migration assistant (preview)? 
+
+[**Download the Microsoft Purview Data Loss Prevention migration assistant (preview)**](https://aka.ms/DownloadMAMD)
+
+ _**The Microsoft Purview Data Loss Prevention migration assistant (preview) tool is subject to an End User License Agreement, which must be accepted before installation and use.**_
 
 For issues regarding migration of AND/OR condition groups or any additional support with your migration, reach out to us at dlpmigrations@microsoft.com. 
 
-## Migration tasks that MAMPD performs. 
-
-MAMPD takes over many of the difficult or tedious tasks involved in a DLP migration project: 
-
--	In traditional migration scenario, you need to perform feasibility analysis between source & target DLP platforms, map features, migrate policies manually, and test and tweak DLP policies. Your migrated DLP policies can be up and running within minutes of starting the MAMPD process. 
--	With MAMPD, you can scale up your migration project quickly from moving a single policy manually to multiple policies at the same time. 
--	MAMPD automatically identifies Sensitive Information Types (SITs) or Data Identifiers in source policies and creates Custom SITs in your Microsoft tenant moving over all your custom regular expressions and keywords in a few clicks. 
--	MAMPD detects which conditions, exclusions & actions are currently being used in source policies and automatically creates new rules with the same conditions, exclusions & actions. 
--	MAMPD provides you with a detailed migration report with policy wise migration status and recommendations. 
--	MAMPD ensures that your DLP policy migration project is completely private and takes place within the boundaries of your organization. 
--	MAMPD supports policy migration from Symantec Data Loss Prevention 15.7 or earlier. 
-
-
-## How does MAMPD work? 
-  
-  ![mampd](https://user-images.githubusercontent.com/69503744/208310804-c6d25776-122f-4c97-85ae-6c363963dc2c.png)
-
-During a given instance of migration, the Migration Assistant for Microsoft Purview DLP works in five phases: 
-
-1.	**Input:** MAMPD ingests one or more Symantec DLP policy XML files. 
-
-2.	**Analyze:** MAMPD interprets the files & identifies Symantec DLP policy constructs. 
-
-3.	**Rationalize:** MAMPD maps the identified Symantec DLP policy constructs to Microsoft Purview DLP capabilities. It performs validations for Microsoft Purview DLP platform limitations. 
-
-4.	**Migrate:** MAMPD executes PowerShell scripts for the DLP scenarios identified & supported by the Microsoft Purview DLP platform. 
-
-5.	**Reporting:** MAMPD provides the user with a detailed migration report about which policies were migrated successfully, partially and/or not migrated. It also provides recommendations to improve the migration fidelity further. 
-
 ## Provide Feedback & Report Bugs 
 
-To report errors & any feature requests with us by opening a new issue in this Github repository. Alternatively, you can reach out to us at dlpmigrations@microsoft.com or via your CXE / Fasttrack / Microsoft partner to share your feedback and suggestions. 
+To report errors & any feature requests with us by opening a new issue in this Github repository. Alternatively, you can reach out to us at dlpmigrations@microsoft.com or via your CXE / FastTrack / Microsoft partner to share your feedback and suggestions. 
 
 ## Telemetry Notice 
 
