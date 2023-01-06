@@ -14,7 +14,9 @@ You can safely use the Microsoft Purview Data Loss Prevention migration assistan
 The migration assistant is in preview ([blog](https://learn.microsoft.com/en-us/microsoft-365/compliance/dlp-learn-about-dlp?view=o365-worldwide)). You can learn more about the migration assistant using the following resources:
 
 o [Learn more about the migration assistant](https://go.microsoft.com/fwlink/?linkid=2221301)
+
 o	[Get started with migrating DLP policies](https://go.microsoft.com/fwlink/?linkid=2220871)
+
 o	[Use the migration assistant to migrate policies from Symantec](https://go.microsoft.com/fwlink/?linkid=2221302)
 
 ## Download Microsoft Purview Data Loss Prevention migration assistant (preview)? 
