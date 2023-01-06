@@ -21,7 +21,7 @@ o	[Use the migration assistant to migrate policies from Symantec](https://go.mic
 
 ## Download Microsoft Purview Data Loss Prevention migration assistant (preview)? 
 
-[**Download the Microsoft Purview Data Loss Prevention migration assistant (preview)**](https://aka.ms/DownloadMAMD)
+[**Download the Microsoft Purview Data Loss Prevention migration assistant (preview)**](https://aka.ms/downloadTool)
 
  _**The Microsoft Purview Data Loss Prevention migration assistant (preview) tool is subject to an End User License Agreement, which must be accepted before installation and use.**_
 
