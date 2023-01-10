@@ -1,7 +1,7 @@
 # Microsoft Purview Data Loss Prevention migration assistant for Symantec (preview)
 
 
-## What is Microsoft Purview Data Loss Prevention migration assistant (preview)? 
+## What is Microsoft Purview Data Loss Prevention migration assistant for Symantec (preview)? 
 
 The migration assistant tool is a Windows based desktop application that will migrate your DLP policies from other DLP platforms to [Microsoft's DLP platform](https://aka.ms/dlpweb).
 
