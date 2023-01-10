@@ -5,7 +5,7 @@
 
 The migration assistant tool is a Windows based desktop application that will migrate your DLP policies from other DLP platforms to [Microsoft's DLP platform](https://aka.ms/dlpweb).
 
-Go [here](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fmicrosoft-365%2Fcompliance%2Fdlp-learn-about-dlp%3Fview%3Do365-worldwide&data=05%7C01%7Cspriti%40microsoft.com%7C68e7c8de37754ea3a3ea08daef33d7eb%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C638085303307093185%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=goZHBNouFTbm89EuNZkD2o5aAcY9ljh%2BCGcOfpf5VGI%3D&reserved=0) to learn more.
+Go [here](https://learn.microsoft.com/en-us/microsoft-365/compliance/dlp-learn-about-dlp?view=o365-worldwide) to learn more.
 
 The migration assistant tool takes you through a simple five-step migration process. It accepts Symantec DLP policy XML exports, performs mapping, and creates equivalent DLP policies through PowerShell scripts. 
 
