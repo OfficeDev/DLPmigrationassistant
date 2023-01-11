@@ -3,9 +3,7 @@
 
 ## What is Microsoft Purview Data Loss Prevention migration assistant for Symantec (preview)? 
 
-The migration assistant tool is a Windows based desktop application that will migrate your DLP policies from other DLP platforms to [Microsoft's DLP platform](https://aka.ms/dlpweb).
-
-Go [here](https://learn.microsoft.com/en-us/microsoft-365/compliance/dlp-learn-about-dlp?view=o365-worldwide) to learn more.
+The migration assistant is a Windows based desktop application that will migrate your DLP policies from other DLP platforms to [Microsoft's DLP platform](https://aka.ms/dlpweb). Go [here](https://learn.microsoft.com/en-us/microsoft-365/compliance/dlp-learn-about-dlp?view=o365-worldwide) to learn more.
 
 The migration assistant tool takes you through a simple five-step migration process. It accepts Symantec DLP policy XML exports, performs mapping, and creates equivalent DLP policies through PowerShell scripts. 
 
@@ -34,7 +32,7 @@ To report errors & any feature requests with us by opening a new issue in this G
 ## Telemetry Notice 
 
 ### Data Collection 
-This software may collect information about you and your use of the software, including the data you upload to the software, and send it to Microsoft. Microsoft may use this information to provide services and improve our products and services. You may opt-out of certain data collection by Microsoft, but not all.  If you wish to opt-out, please reach out and we will provide you with a separate version of the software with limited data collection.  Please refer to product documentation for more information. There are also some features in the software that may enable you and Microsoft to collect data from users of your applications. If you use these features, you must comply with applicable law, including providing appropriate notices to users of your applications together with a copy of Microsoft's privacy statement. Our privacy statement is located at [DLPMigrationAssistantDocs](https://aka.ms/DLPMigrationAssistantDocs). You can learn more about data collection and use in the help documentation and our privacy statement. Your use of the software operates as your consent to these practices. 
+This software may collect information about you and your use of the software, including the data you upload to the software, and send it to Microsoft. Microsoft may use this information to provide services and improve our products and services. You may opt-out of certain data collection by Microsoft, but not all.  If you wish to opt-out, please reach out and we will provide you with a separate version of the software with limited data collection.  Please refer to [product documentation](https://aka.ms/DLPMigrationAssistantDocs) for more information. There are also some features in the software that may enable you and Microsoft to collect data from users of your applications. If you use these features, you must comply with applicable law, including providing appropriate notices to users of your applications together with a copy of Microsoft's privacy statement. Our privacy statement is located at https://go.microsoft.com/fwlink/?LinkID=824704. You can learn more about data collection and use in the help documentation and our privacy statement. Your use of the software operates as your consent to these practices. 
 
 ## Trademarks 
 
