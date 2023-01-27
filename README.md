@@ -12,7 +12,7 @@ You can safely use the migration assistant tool to create DLP policies in test m
 
 ## Resources
 
-The migration assistant is in preview ([blog](https://aka.ms/DLPMigrationAssistantBlog)). You can learn more about the migration assistant using the following resources:
+You can learn more about the migration assistant using the following resources:
 
 o [Learn more about the migration assistant](https://go.microsoft.com/fwlink/?linkid=2221301)
 
