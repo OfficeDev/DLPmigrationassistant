@@ -35,6 +35,7 @@ To report errors & any feature requests with us by opening a new issue in this G
 
 ### Data Collection and Storage
 This software may collect information about you and your use of the software and send it to Microsoft. Microsoft may use this information, including the data you upload to the software, to provide migration support services and improve our products and services to better support migration using this software. You may opt-out of certain data collection by Microsoft, but not all.  If you wish to opt-out, please reach out and we will provide you with a separate version of the software with limited data collection.  Please refer to [product documentation](https://aka.ms/DLPMigrationAssistantDocs) for more information. There are also some features in the software that may enable you and Microsoft to collect data from users of your applications. If you use these features, you must comply with applicable law, including providing appropriate notices to users of your applications together with a copy of Microsoft's privacy statement. 
+
 Data collected by the software, as well as the data you upload, is stored in the United States. You can learn more about data collection and use in the help documentation and our privacy statement, which can be found at: https://go.microsoft.com/fwlink/?LinkID=824704. Your use of the software operates as your consent to these practices.
 
 ## Trademarks 
