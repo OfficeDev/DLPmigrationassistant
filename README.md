@@ -25,7 +25,7 @@ o	[Use the migration assistant to migrate policies from Symantec](https://go.mic
 [**Download the migration assistant**](https://aka.ms/downloadTool)
 
 
- _**Microsoft Purview Data Loss Prevention migration assistant for Symantec tool is subject to an End User License Agreement, which must be accepted before installation and use.**_
+ _**Microsoft Purview Data Loss Prevention migration assistant for Symantec is subject to an End User License Agreement, which must be accepted before installation and use.**_
 
 ## Provide Feedback & Report Bugs 
 
